@@ -1,0 +1,429 @@
+body {
+    margin: 0;
+    font-size: 40;
+
+    font-family: 'Kavoon', serif;
+    color: #fff;
+
+    background-color: #434242;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* Container
+=====================*/
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+/* Header 
+=====================*/
+.header {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 60px;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.header__logo {
+    float: left;
+    padding: 30px;
+}
+
+.logo {
+    padding-top: 150px;
+}
+
+
+/* Me
+=====================*/
+.me {
+    margin-left: 32px;
+    color: #A7A894;
+    font-family: Kavoon;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.photos {
+    float: left;
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.photo{
+    margin: 10px;
+    width: 220px;
+    height: 320px;
+}
+
+.photo2{
+    margin: 10px;
+    width: 220px;
+    height: 320px;
+}
+
+.MEandPHOTOS {
+    padding: 0 0 30px;
+    max-width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+
+/* About me 
+====================*/
+.abme {
+    text-align: center;
+    max-width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.aboutme {
+    color: #A7A894;
+
+    font-family: Kavoon;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text {
+    color: #FFF;
+    text-align: center;
+    font-family: Kavoon;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding: 7%;
+}
+
+
+/* Skills
+====================*/
+.lists {
+    padding: 50px 0 30px;
+    text-align: center;
+    max-width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.skills {
+    color: #A7A894;
+    text-align: center;
+    font-family: Kavoon;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.skill {
+    color: #FFF;
+text-align: center;
+font-family: Kavoon;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 30px;
+}
+
+/* Characteristics
+===========================*/
+.characteristics {
+    padding: 50px 0;
+    text-align: center;
+    color: #A7A894;
+font-family: Kavoon;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.nstats {
+    margin-left: 350px;
+    color: #FFF;
+text-align: left;
+font-family: Kavoon;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+flex-direction: column;
+position: relative;
+}
+
+.stats {    
+    max-width: 100%;
+    margin-left: 800px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    float: right;
+
+}
+
+
+.shkals {
+    max-width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/*  My social networks 
+===========================*/
+.socnet {
+    padding: 0 0 50px;
+    text-align: center;
+    color: #A0A18F;
+    font-family: Kavoon;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cn {
+    color: #FFF;
+    text-align: center;
+    font-family: Kavoon;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.msn {
+    padding: 100px 0 50px;
+    max-width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* media
+====================*/
+@media (max-width: 1200px) {
+body {
+    font-size: 16;
+    width: 100%;
+}
+
+/* Me
+=====================*/
+.me {
+    margin-left: 15px;
+    font-size: 32px;
+}
+
+.photo{
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+}
+.photo2{
+    margin: 10px;
+    width: 220px;
+    height: 320px;
+}
+
+/* About me 
+====================*/
+.abme {
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.aboutme {
+    font-size: 32px;
+}
+
+.text {
+    font-size: 16px;
+    height: 100px;
+}
+
+/* Skills
+====================*/
+.lists {
+    padding: 100px 0 30px;
+    text-align: center;
+}
+.skills {
+    text-align: center;
+    font-size: 32px;
+}
+
+.skill {
+font-size: 16px;
+margin-bottom: 30px;
+}
+
+/* Characteristics
+===========================*/
+.characteristics {
+    padding: 50px 0;
+    text-align: center;
+font-size: 32px;
+}
+
+.nstats {
+     margin-left: 300px;
+font-size: 20px;
+}
+
+.stats {    
+    margin-left: 400px;
+
+}
+
+/*  My social networks 
+===========================*/
+.socnet {
+    padding: 0 0 30px;
+    font-size: 32px;
+}
+
+.cn {
+    font-size: 16px;
+}
+
+}
+
+
+/* ------------------------------------------------------------------- */
+
+@media (max-width: 500px) {
+    body {
+        font-size: 16;
+        width: 100%;
+    }
+    
+    /* Me
+    =====================*/
+    .me {
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    
+    .photo{
+        float: left;
+        width: 180px;
+        height: 280px;
+    }
+    .photo2{
+        width: 0px;
+        height: 0px;
+    }
+
+    
+    
+    /* About me 
+    ====================*/
+    .aboutme {
+        font-size: 20px;
+    }
+    
+    .text {
+        font-size: 14px;
+        height: 100px;
+    }
+    
+    /* Skills
+    ====================*/
+    .lists {
+        padding: 180px 0 30px;
+        text-align: center;
+    }
+    .skills {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .skill {
+    font-size: 14px;
+    margin-bottom: 30px;
+    }
+    
+    /* Characteristics
+    ===========================*/
+    .characteristics {
+        padding: 50px 0;
+        text-align: center;
+    font-size: 20px;
+    }
+    
+    .nstats {
+         margin-left: 20px;
+    font-size: 20px;
+    }
+    
+    .stats {    
+        margin-left: 180px;
+    
+    }
+
+    .statsimg {
+        width: 250px;
+        height: 250px;
+    }
+    
+    /*  My social networks 
+    ===========================*/
+    .socnet {
+        padding: 0 0 30px;
+        font-size: 20px;
+    }
+    
+    .cn {
+        font-size: 14px;
+    }
+    
+
+
+
+
+}
+
+
+
+
